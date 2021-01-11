@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es5",
+      "es6"
+    ],
+    "target": "es5",
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "outDir": "./build",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "typeRoots": [
+      "src/types",
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "src"
+  ]
+}
